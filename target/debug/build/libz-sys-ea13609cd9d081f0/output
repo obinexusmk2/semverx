@@ -1,0 +1,97 @@
+cargo:rerun-if-env-changed=LIBZ_SYS_STATIC
+cargo:rerun-if-changed=build.rs
+cargo:rerun-if-changed=zng/cmake.rs
+cargo:rerun-if-changed=zng/cc.rs
+note, vcpkg did not find zlib: Could not find Vcpkg tree: No vcpkg installation found. Set the VCPKG_ROOT environment variable or run 'vcpkg integrate install'
+OPT_LEVEL = Some(0)
+TARGET = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=VCINSTALLDIR
+VCINSTALLDIR = None
+cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+VSTEL_MSBuildProjectFullPath = None
+cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+VSCMD_ARG_VCVARS_SPECTRE = None
+cargo:rerun-if-env-changed=WindowsSdkDir
+WindowsSdkDir = None
+cargo:rerun-if-env-changed=WindowsSDKVersion
+WindowsSDKVersion = None
+cargo:rerun-if-env-changed=LIB
+LIB = None
+PATH = Some(C:\Users\Public\Public Projects\runtime\semverx\target\debug;C:\Users\Public\Public Projects\runtime\semverx\target\debug\deps;C:\Users\OBINexus\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Users\OBINexus\miniconda3;C:\Users\OBINexus\miniconda3\Library\mingw-w64\bin;C:\Users\OBINexus\miniconda3\Library\usr\bin;C:\Users\OBINexus\miniconda3\Library\bin;C:\Users\OBINexus\miniconda3\Scripts;C:\Users\OBINexus\miniconda3\bin;C:\Users\OBINexus\miniconda3\condabin;C:\Program Files\PowerShell\7;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Volta;C:\Python314\Scripts;C:\Python314;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Users\OBINexus\AppData\Local\Muse Hub\lib;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\LLVM\bin;C:\Program Files\Microsoft SQL Server\170\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Users\OBINexus\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Program Files (x86)\Lua\5.1;C:\Program Files (x86)\Lua\5.1\clibs;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\CMake\bin;C:\Program Files\dotnet;C:\Program Files\PowerShell\7;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\Program Files\GitHub CLI;C:\Users\OBINexus\.cargo\bin;C:\Users\OBINexus\AppData\Local\Volta\bin;C:\Users\OBINexus\AppData\Local\Microsoft\WindowsApps;C:\Tools\ffmpeg\bin;C:\Users\OBINexus\go\bin;C:\Users\OBINexus\AppData\Local\Muse Hub\lib;C:\Users\OBINexus\.dotnet\tools;C:\MinGW\bin;C:\Users\OBINexus\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\OBINexus\AppData\Roaming\npm;C:\MinGW\bin;C:\Program Files\Sublime Text;C:\Users\OBINexus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\qemu;C:\Users\OBINexus\AppData\Local\bin\NASM;C:\Users\OBINexus\.lmstudio\bin;C:\Users\OBINexus\AppData\Local\Microsoft\WinGet\Packages\youtube-dl.youtube-dl_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\gradle-9.4.1\bin;C:\Program Files\VideoLAN\VLC;C:\Dev\Andriod\platform-tools;.;C:\Users\OBINexus\AppData\Local\Programs\Ollama;C:\Users\OBINexus\.rustup\toolchains\stable-x86_64-pc-windows-msvc\bin)
+cargo:rerun-if-env-changed=INCLUDE
+INCLUDE = None
+HOST = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some(cmpxchg16b,fxsr,sse,sse2,sse3)
+DEBUG = Some(true)
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+CARGO_ENCODED_RUSTFLAGS = Some()
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+adler32.c
+compress.c
+crc32.c
+deflate.c
+infback.c
+inffast.c
+inflate.c
+inftrees.c
+trees.c
+uncompr.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+zutil.c
+gzclose.c
+gzlib.c
+gzread.c
+gzwrite.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+cargo:rerun-if-env-changed=AR_x86_64-pc-windows-msvc
+AR_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=AR_x86_64_pc_windows_msvc
+AR_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_pc_windows_msvc
+ARFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-pc-windows-msvc
+ARFLAGS_x86_64-pc-windows-msvc = None
+cargo:rustc-link-search=native=C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\atlmfc\lib\x64
+cargo:rustc-link-lib=static=z
+cargo:rustc-link-search=native=C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libz-sys-ea13609cd9d081f0\out\lib
+cargo:root=C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libz-sys-ea13609cd9d081f0\out
+cargo:rustc-link-search=native=C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libz-sys-ea13609cd9d081f0\out\lib
+cargo:include=C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libz-sys-ea13609cd9d081f0\out/include

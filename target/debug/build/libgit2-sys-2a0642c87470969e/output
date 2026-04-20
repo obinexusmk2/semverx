@@ -1,0 +1,600 @@
+cargo:rerun-if-env-changed=LIBGIT2_NO_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-pc-windows-msvc
+cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_pc_windows_msvc
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG
+cargo:rerun-if-env-changed=LIBGIT2_STATIC
+cargo:rerun-if-env-changed=LIBGIT2_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-pc-windows-msvc
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_pc_windows_msvc
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-pc-windows-msvc
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_pc_windows_msvc
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-pc-windows-msvc
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_pc_windows_msvc
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=LIBGIT2_STATIC
+cargo:rerun-if-env-changed=LIBGIT2_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-pc-windows-msvc
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_pc_windows_msvc
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-pc-windows-msvc
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_pc_windows_msvc
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-pc-windows-msvc
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_pc_windows_msvc
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+cargo:rustc-cfg=libgit2_vendored
+libgit2/include\git2\annotated_commit.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\annotated_commit.h
+libgit2/include\git2\apply.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\apply.h
+libgit2/include\git2\attr.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\attr.h
+libgit2/include\git2\blame.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\blame.h
+libgit2/include\git2\blob.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\blob.h
+libgit2/include\git2\branch.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\branch.h
+libgit2/include\git2\buffer.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\buffer.h
+libgit2/include\git2\cert.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\cert.h
+libgit2/include\git2\checkout.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\checkout.h
+libgit2/include\git2\cherrypick.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\cherrypick.h
+libgit2/include\git2\clone.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\clone.h
+libgit2/include\git2\commit.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\commit.h
+libgit2/include\git2\common.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\common.h
+libgit2/include\git2\config.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\config.h
+libgit2/include\git2\credential.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\credential.h
+libgit2/include\git2\credential_helpers.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\credential_helpers.h
+libgit2/include\git2\cred_helpers.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\cred_helpers.h
+libgit2/include\git2\deprecated.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\deprecated.h
+libgit2/include\git2\describe.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\describe.h
+libgit2/include\git2\diff.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\diff.h
+libgit2/include\git2\email.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\email.h
+libgit2/include\git2\errors.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\errors.h
+libgit2/include\git2\filter.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\filter.h
+libgit2/include\git2\global.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\global.h
+libgit2/include\git2\graph.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\graph.h
+libgit2/include\git2\ignore.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\ignore.h
+libgit2/include\git2\index.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\index.h
+libgit2/include\git2\indexer.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\indexer.h
+libgit2/include\git2\mailmap.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\mailmap.h
+libgit2/include\git2\merge.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\merge.h
+libgit2/include\git2\message.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\message.h
+libgit2/include\git2\net.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\net.h
+libgit2/include\git2\notes.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\notes.h
+libgit2/include\git2\object.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\object.h
+libgit2/include\git2\odb.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\odb.h
+libgit2/include\git2\odb_backend.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\odb_backend.h
+libgit2/include\git2\oid.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\oid.h
+libgit2/include\git2\oidarray.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\oidarray.h
+libgit2/include\git2\pack.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\pack.h
+libgit2/include\git2\patch.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\patch.h
+libgit2/include\git2\pathspec.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\pathspec.h
+libgit2/include\git2\proxy.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\proxy.h
+libgit2/include\git2\rebase.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\rebase.h
+libgit2/include\git2\refdb.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\refdb.h
+libgit2/include\git2\reflog.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\reflog.h
+libgit2/include\git2\refs.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\refs.h
+libgit2/include\git2\refspec.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\refspec.h
+libgit2/include\git2\remote.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\remote.h
+libgit2/include\git2\repository.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\repository.h
+libgit2/include\git2\reset.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\reset.h
+libgit2/include\git2\revert.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\revert.h
+libgit2/include\git2\revparse.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\revparse.h
+libgit2/include\git2\revwalk.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\revwalk.h
+libgit2/include\git2\signature.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\signature.h
+libgit2/include\git2\stash.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\stash.h
+libgit2/include\git2\status.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\status.h
+libgit2/include\git2\stdint.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\stdint.h
+libgit2/include\git2\strarray.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\strarray.h
+libgit2/include\git2\submodule.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\submodule.h
+libgit2/include\git2\sys\alloc.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\sys\alloc.h
+libgit2/include\git2\sys\commit.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\sys\commit.h
+libgit2/include\git2\sys\commit_graph.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\sys\commit_graph.h
+libgit2/include\git2\sys\config.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\sys\config.h
+libgit2/include\git2\sys\cred.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\sys\cred.h
+libgit2/include\git2\sys\credential.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\sys\credential.h
+libgit2/include\git2\sys\diff.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\sys\diff.h
+libgit2/include\git2\sys\email.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\sys\email.h
+libgit2/include\git2\sys\filter.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\sys\filter.h
+libgit2/include\git2\sys\hashsig.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\sys\hashsig.h
+libgit2/include\git2\sys\index.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\sys\index.h
+libgit2/include\git2\sys\mempack.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\sys\mempack.h
+libgit2/include\git2\sys\merge.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\sys\merge.h
+libgit2/include\git2\sys\midx.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\sys\midx.h
+libgit2/include\git2\sys\odb_backend.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\sys\odb_backend.h
+libgit2/include\git2\sys\openssl.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\sys\openssl.h
+libgit2/include\git2\sys\path.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\sys\path.h
+libgit2/include\git2\sys\refdb_backend.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\sys\refdb_backend.h
+libgit2/include\git2\sys\reflog.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\sys\reflog.h
+libgit2/include\git2\sys\refs.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\sys\refs.h
+libgit2/include\git2\sys\repository.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\sys\repository.h
+libgit2/include\git2\sys\stream.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\sys\stream.h
+libgit2/include\git2\sys\transport.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\sys\transport.h
+libgit2/include\git2\tag.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\tag.h
+libgit2/include\git2\trace.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\trace.h
+libgit2/include\git2\transaction.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\transaction.h
+libgit2/include\git2\transport.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\transport.h
+libgit2/include\git2\tree.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\tree.h
+libgit2/include\git2\types.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\types.h
+libgit2/include\git2\version.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\version.h
+libgit2/include\git2\worktree.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2\worktree.h
+libgit2/include\git2.h => C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\include\git2.h
+OPT_LEVEL = Some(0)
+TARGET = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=VCINSTALLDIR
+VCINSTALLDIR = None
+cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+VSTEL_MSBuildProjectFullPath = None
+cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+VSCMD_ARG_VCVARS_SPECTRE = None
+cargo:rerun-if-env-changed=WindowsSdkDir
+WindowsSdkDir = None
+cargo:rerun-if-env-changed=WindowsSDKVersion
+WindowsSDKVersion = None
+cargo:rerun-if-env-changed=LIB
+LIB = None
+PATH = Some(C:\Users\Public\Public Projects\runtime\semverx\target\debug;C:\Users\Public\Public Projects\runtime\semverx\target\debug\deps;C:\Users\OBINexus\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Users\OBINexus\miniconda3;C:\Users\OBINexus\miniconda3\Library\mingw-w64\bin;C:\Users\OBINexus\miniconda3\Library\usr\bin;C:\Users\OBINexus\miniconda3\Library\bin;C:\Users\OBINexus\miniconda3\Scripts;C:\Users\OBINexus\miniconda3\bin;C:\Users\OBINexus\miniconda3\condabin;C:\Program Files\PowerShell\7;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Volta;C:\Python314\Scripts;C:\Python314;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Users\OBINexus\AppData\Local\Muse Hub\lib;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\LLVM\bin;C:\Program Files\Microsoft SQL Server\170\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Users\OBINexus\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Program Files (x86)\Lua\5.1;C:\Program Files (x86)\Lua\5.1\clibs;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\CMake\bin;C:\Program Files\dotnet;C:\Program Files\PowerShell\7;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\Program Files\GitHub CLI;C:\Users\OBINexus\.cargo\bin;C:\Users\OBINexus\AppData\Local\Volta\bin;C:\Users\OBINexus\AppData\Local\Microsoft\WindowsApps;C:\Tools\ffmpeg\bin;C:\Users\OBINexus\go\bin;C:\Users\OBINexus\AppData\Local\Muse Hub\lib;C:\Users\OBINexus\.dotnet\tools;C:\MinGW\bin;C:\Users\OBINexus\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\OBINexus\AppData\Roaming\npm;C:\MinGW\bin;C:\Program Files\Sublime Text;C:\Users\OBINexus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\qemu;C:\Users\OBINexus\AppData\Local\bin\NASM;C:\Users\OBINexus\.lmstudio\bin;C:\Users\OBINexus\AppData\Local\Microsoft\WinGet\Packages\youtube-dl.youtube-dl_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\gradle-9.4.1\bin;C:\Program Files\VideoLAN\VLC;C:\Dev\Andriod\platform-tools;.;C:\Users\OBINexus\AppData\Local\Programs\Ollama;C:\Users\OBINexus\.rustup\toolchains\stable-x86_64-pc-windows-msvc\bin)
+cargo:rerun-if-env-changed=INCLUDE
+INCLUDE = None
+HOST = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some(cmpxchg16b,fxsr,sse,sse2,sse3)
+DEBUG = Some(true)
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+CARGO_ENCODED_RUSTFLAGS = Some()
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+alloc.c
+annotated_commit.c
+apply.c
+attr.c
+attrcache.c
+attr_file.c
+blame.c
+blame_git.c
+blob.c
+branch.c
+buffer.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+cache.c
+checkout.c
+cherrypick.c
+clone.c
+commit_graph.c
+commit.c
+commit_list.c
+config.c
+config_cache.c
+config_entries.c
+config_file.c
+config_mem.c
+config_parse.c
+config_snapshot.c
+crlf.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+date.c
+delta.c
+describe.c
+diff.c
+diff_driver.c
+diff_file.c
+diff_generate.c
+diff_parse.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+diff_print.c
+diff_stats.c
+diff_tform.c
+diff_xdiff.c
+email.c
+fetch.c
+errors.c
+fetchhead.c
+filebuf.c
+filter.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+graph.c
+hashsig.c
+futils.c
+hash.c
+ident.c
+ignore.c
+idxmap.c
+index.c
+indexer.c
+iterator.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+libgit2.c
+mailmap.c
+merge.c
+merge_driver.c
+merge_file.c
+midx.c
+message.c
+mwindow.c
+net.c
+netops.c
+notes.c
+object.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+object_api.c
+odb.c
+odb_loose.c
+odb_mempack.c
+odb_pack.c
+offmap.c
+oid.c
+oidarray.c
+pack.c
+pack-objects.c
+oidmap.c
+patch.c
+parse.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+patch_generate.c
+patch_parse.c
+path.c
+pathspec.c
+pool.c
+posix.c
+proxy.c
+pqueue.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+refdb.c
+push.c
+rebase.c
+reader.c
+refs.c
+reflog.c
+libgit2/src\patch_generate.c(65): warning C5287: operands are different enum types 'git_diff_flag_t' and '<unnamed-enum-GIT_DIFF_FLAG__FREE_PATH>'; use an explicit cast to silence this warning
+libgit2/src\patch_generate.c(66): warning C5287: operands are different enum types 'git_diff_flag_t' and '<unnamed-enum-GIT_DIFF_FLAG__FREE_PATH>'; use an explicit cast to silence this warning
+refdb_fs.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+refspec.c
+regexp.c
+remote.c
+reset.c
+repository.c
+revert.c
+revparse.c
+revwalk.c
+runtime.c
+signature.c
+sortedcache.c
+stash.c
+status.c
+strarray.c
+strmap.c
+submodule.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+sysdir.c
+tag.c
+thread.c
+threadstate.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+trace.c
+transport.c
+trailer.c
+tree.c
+transaction.c
+tree-cache.c
+tsort.c
+libgit2/src\submodule.c(1417): warning C5287: operands are different enum types 'git_submodule_status_t' and '<unnamed-enum-GIT_SUBMODULE_STATUS__WD_SCANNED>'; use an explicit cast to silence this warning
+libgit2/src\submodule.c(1542): warning C5287: operands are different enum types 'git_submodule_status_t' and '<unnamed-enum-GIT_SUBMODULE_STATUS__WD_SCANNED>'; use an explicit cast to silence this warning
+libgit2/src\submodule.c(1553): warning C5287: operands are different enum types 'git_submodule_status_t' and '<unnamed-enum-GIT_SUBMODULE_STATUS__WD_SCANNED>'; use an explicit cast to silence this warning
+libgit2/src\submodule.c(1561): warning C5287: operands are different enum types '<unnamed-enum-GIT_SUBMODULE_STATUS__WD_SCANNED>' and 'git_submodule_status_t'; use an explicit cast to silence this warning
+libgit2/src\submodule.c(1599): warning C5287: operands are different enum types 'git_submodule_status_t' and '<unnamed-enum-GIT_SUBMODULE_STATUS__WD_SCANNED>'; use an explicit cast to silence this warning
+libgit2/src\submodule.c(1613): warning C5287: operands are different enum types 'git_submodule_status_t' and '<unnamed-enum-GIT_SUBMODULE_STATUS__WD_SCANNED>'; use an explicit cast to silence this warning
+libgit2/src\submodule.c(1632): warning C5287: operands are different enum types 'git_submodule_status_t' and '<unnamed-enum-GIT_SUBMODULE_STATUS__WD_SCANNED>'; use an explicit cast to silence this warning
+libgit2/src\submodule.c(1643): warning C5287: operands are different enum types 'git_submodule_status_t' and '<unnamed-enum-GIT_SUBMODULE_STATUS__WD_SCANNED>'; use an explicit cast to silence this warning
+libgit2/src\submodule.c(1683): warning C5287: operands are different enum types 'git_submodule_status_t' and '<unnamed-enum-GIT_SUBMODULE_STATUS__WD_SCANNED>'; use an explicit cast to silence this warning
+vector.c
+utf8.c
+util.c
+varint.c
+wildmatch.c
+zstream.c
+worktree.c
+xdiffi.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+xemit.c
+xmerge.c
+xpatience.c
+xhistogram.c
+xprepare.c
+xutils.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+auth_negotiate.c
+auth.c
+auth_ntlm.c
+credential_helpers.c
+credential.c
+git.c
+http.c
+httpclient.c
+local.c
+smart.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+smart_pkt.c
+smart_protocol.c
+ssh.c
+mbedtls.c
+winhttp.c
+openssl_dynamic.c
+openssl.c
+registry.c
+openssl_legacy.c
+socket.c
+stransport.c
+tls.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+http_parser.c
+pcre_byte_order.c
+pcre_chartables.c
+pcre_compile.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+pcre_dfa_exec.c
+pcre_config.c
+pcre_exec.c
+pcre_fullinfo.c
+pcre_get.c
+pcre_globals.c
+pcre_jit_compile.c
+pcre_newline.c
+pcre_maketables.c
+pcre_ord2utf8.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+pcre_printint.c
+pcre_refcount.c
+pcre_string_utils.c
+pcre_study.c
+pcre_tables.c
+pcre_ucd.c
+pcre_valid_utf8.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+pcre_version.c
+pcre_xclass.c
+pcreposix.c
+dir.c
+stdalloc.c
+failalloc.c
+error.c
+findfile.c
+map.c
+path_w32.c
+posix_w32.c
+precompiled.c
+thread.c
+w32_buffer.c
+utf-conv.c
+w32_leakcheck.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+w32_util.c
+collisiondetect.c
+sha1.c
+ubc_check.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+cargo:rerun-if-env-changed=AR_x86_64-pc-windows-msvc
+AR_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=AR_x86_64_pc_windows_msvc
+AR_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_pc_windows_msvc
+ARFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-pc-windows-msvc
+ARFLAGS_x86_64-pc-windows-msvc = None
+cargo:rustc-link-search=native=C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\atlmfc\lib\x64
+cargo:rustc-link-lib=static=git2
+cargo:rustc-link-search=native=C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out\build
+cargo:root=C:\Users\Public\Public Projects\runtime\semverx\target\debug\build\libgit2-sys-2a0642c87470969e\out
+cargo:rustc-link-lib=winhttp
+cargo:rustc-link-lib=rpcrt4
+cargo:rustc-link-lib=ole32
+cargo:rustc-link-lib=crypt32

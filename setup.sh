@@ -1,6 +1,8 @@
 #!/bin/bash
 # OBINexus rust-semverx Setup Script
-# Part of the polyglot toolchain: riftlang.exe → .so.a → rift.exe → gosilang
+# Part of the polyglot toolchain: riftlang.exe -> .so.a -> rift.exe -> gosilang
+
+set -e
 
 echo "Setting up rust-semverx for OBINexus..."
 

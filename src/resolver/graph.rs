@@ -1,10 +1,11 @@
 use petgraph::graph::{DiGraph, NodeIndex};
 use petgraph::algo::dijkstra;
+use petgraph::visit::EdgeRef;
 use std::collections::HashMap;
-use std::fmt;
 
-use super::{DependencyResolver, ResolutionError, Component};
+use super::{Component, DependencyResolver, ResolutionError};
 
+#[derive(Debug)]
 pub struct GraphResolver {
     graph: DiGraph<Component, f64>,
     node_map: HashMap<String, NodeIndex>,
