@@ -58,15 +58,15 @@ pacman -S --needed \
     mingw-w64-x86_64-make
 ```
 
-### Step 4: Clone and Build rust-semverx
+### Step 4: Clone and Build semverx
 
 ```bash
 # Navigate to workspace
 cd ~/obinexus/workspace
 
 # If not already cloned
-git clone https://github.com/obinexus/rust-semverx.git
-cd rust-semverx
+git clone https://github.com/obinexus/semverx.git
+cd semverx
 
 # Create backup of existing Cargo.toml
 cp Cargo.toml Cargo.toml.backup
@@ -85,7 +85,7 @@ cargo build --release
 
 ```toml
 [package]
-name = "rust-semverx"
+name = "semverx"
 version = "0.1.0"
 edition = "2021"
 authors = ["OBINexus <obinexus@proton.me>"]
@@ -179,7 +179,7 @@ cargo clean
 cargo build --verbose
 
 # Expected output:
-#    Compiling semverx v0.1.0 (.../rust-semverx)
+#    Compiling semverx v0.1.0 (.../semverx)
 #    Finished dev [unoptimized + debuginfo] target(s) in X.XXs
 
 # Run binary
@@ -362,11 +362,11 @@ cargo clean && cargo build -vv  # Verbose rebuild
 
 ---
 
-**You're now ready to build rust-semverx on MSYS!**
+**You're now ready to build semverx on MSYS!**
 
 Run these commands to verify everything works:
 ```bash
-cd ~/obinexus/workspace/rust-semverx
+cd ~/obinexus/workspace/semverx
 cargo clean
 cargo build
 cargo test

@@ -1,4 +1,4 @@
-//! rust-semverx: Semantic Version X Implementation
+//! semverx: Semantic Version X Implementation
 //! 
 //! Implements OBINexus polyglot package management with:
 //! - Isomorphic reduction for Unicode normalization

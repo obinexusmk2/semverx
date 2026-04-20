@@ -54,24 +54,24 @@ bufq.c
 bufref.c
 cf-h1-proxy.c
 cf-haproxy.c
+cf-https-connect.c
 cf-socket.c
 cfilters.c
-cf-https-connect.c
 conncache.c
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-content_encoding.c
 connect.c
+content_encoding.c
 cookie.c
 cshutdn.c
 curl_addrinfo.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
 curl_get_line.c
 curl_memrchr.c
 curl_range.c
@@ -79,6 +79,7 @@ curl_sha512_256.c
 curl_threads.c
 curl_trc.c
 base64.c
+dynbuf.c
 exit code: 0
 exit code: 0
 exit code: 0
@@ -90,14 +91,13 @@ exit code: 0
 exit code: 0
 exit code: 0
 inet_ntop.c
-dynbuf.c
 inet_pton.c
 nonblock.c
 strparse.c
 timediff.c
 timeval.c
-warnless.c
 wait.c
+warnless.c
 exit code: 0
 exit code: 0
 exit code: 0
@@ -113,118 +113,118 @@ doh.c
 dynhds.c
 easy.c
 escape.c
-fileinfo.c
 file.c
+fileinfo.c
 fopen.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
 formdata.c
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
 getenv.c
 getinfo.c
 hash.c
 headers.c
+hmac.c
 hostip.c
 hostip6.c
-hmac.c
 hsts.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
 http.c
 http1.c
 http_aws_sigv4.c
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
 http_chunks.c
 http_digest.c
 http_proxy.c
 idn.c
 if2ip.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
 llist.c
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
 macos.c
 md5.c
 mime.c
 mprintf.c
 mqtt.c
 multi.c
-multi_ev.c
 netrc.c
 noproxy.c
+multi_ev.c
 parsedate.c
 progress.c
-rename.c
 rand.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
 request.c
-select.c
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-setopt.c
+rename.c
 sendf.c
+select.c
+setopt.c
 sha256.c
 share.c
-socketpair.c
 slist.c
+socketpair.c
 socks.c
-splay.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
 speedcheck.c
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-strdup.c
+splay.c
 strcase.c
+strdup.c
 strequal.c
-transfer.c
 strerror.c
+transfer.c
 uint-bset.c
 uint-hash.c
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
 uint-spbset.c
-url.c
 uint-table.c
+url.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
 urlapi.c
 digest.c
 vauth.c
@@ -232,17 +232,17 @@ version.c
 curl_msh3.c
 curl_osslq.c
 curl_ngtcp2.c
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
 curl_quiche.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
 vquic-tls.c
 vquic.c
 hostcheck.c
@@ -263,26 +263,26 @@ exit code: 0
 exit code: 0
 exit code: 0
 krb5_sspi.c
-vauth.c
 spnego_sspi.c
+vauth.c
 schannel.c
 schannel_verify.c
 x509asn1.c
 bufref.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
 system_win32.c
 digest_sspi.c
 multibyte.c
 version_win32.c
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
 winapi.c
 exit code: 0
 exit code: 0

@@ -1,4 +1,4 @@
-//! Dependency resolution surface for `rust-semverx`.
+//! Dependency resolution surface for `semverx`.
 //!
 //! Exposes:
 //! - [`DependencyResolver`] — trait implemented by concrete resolvers

@@ -49,34 +49,34 @@ blowfish.c
 channel.c
 comp.c
 crypt.c
-global.c
 hostkey.c
+global.c
 keepalive.c
-knownhost.c
 kex.c
+knownhost.c
 mac.c
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
 misc.c
 packet.c
-publickey.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
 pem.c
+publickey.c
 scp.c
 session.c
 sftp.c
 transport.c
 userauth.c
+agent_win.c
 libssh2/src/session.c(519): warning C4068: unknown pragma 'GCC'
 libssh2/src/session.c(520): warning C4068: unknown pragma 'GCC'
 libssh2/src/session.c(568): warning C4068: unknown pragma 'GCC'
-agent_win.c
 wincng.c
 exit code: 0
 exit code: 0

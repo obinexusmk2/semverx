@@ -171,28 +171,28 @@ alloc.c
 annotated_commit.c
 apply.c
 attr.c
-attrcache.c
 attr_file.c
+attrcache.c
 blame.c
 blame_git.c
 blob.c
 branch.c
 buffer.c
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
 cache.c
 checkout.c
 cherrypick.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
 clone.c
-commit_graph.c
 commit.c
+commit_graph.c
 commit_list.c
 config.c
 config_cache.c
@@ -202,43 +202,44 @@ config_mem.c
 config_parse.c
 config_snapshot.c
 crlf.c
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
 date.c
 delta.c
 describe.c
 diff.c
 diff_driver.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
 diff_file.c
 diff_generate.c
 diff_parse.c
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
 diff_print.c
 diff_stats.c
 diff_tform.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
 diff_xdiff.c
 email.c
-fetch.c
 errors.c
+fetch.c
 fetchhead.c
 filebuf.c
 filter.c
+futils.c
 exit code: 0
 exit code: 0
 exit code: 0
@@ -250,59 +251,58 @@ exit code: 0
 exit code: 0
 exit code: 0
 graph.c
-hashsig.c
-futils.c
-hash.c
 ident.c
-ignore.c
+hashsig.c
+hash.c
 idxmap.c
+ignore.c
 index.c
 indexer.c
 iterator.c
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
 libgit2.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
 mailmap.c
 merge.c
 merge_driver.c
 merge_file.c
-midx.c
 message.c
+midx.c
 mwindow.c
 net.c
 netops.c
 notes.c
 object.c
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
 object_api.c
 odb.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
 odb_loose.c
 odb_mempack.c
 odb_pack.c
 offmap.c
 oid.c
 oidarray.c
-pack.c
-pack-objects.c
 oidmap.c
-patch.c
+pack-objects.c
+pack.c
 parse.c
+patch.c
 exit code: 0
 exit code: 0
 exit code: 0
@@ -318,8 +318,8 @@ path.c
 pathspec.c
 pool.c
 posix.c
-proxy.c
 pqueue.c
+proxy.c
 exit code: 0
 exit code: 0
 exit code: 0
@@ -330,29 +330,29 @@ exit code: 0
 exit code: 0
 exit code: 0
 exit code: 0
-refdb.c
 push.c
-rebase.c
 reader.c
-refs.c
-reflog.c
+rebase.c
 libgit2/src\patch_generate.c(65): warning C5287: operands are different enum types 'git_diff_flag_t' and '<unnamed-enum-GIT_DIFF_FLAG__FREE_PATH>'; use an explicit cast to silence this warning
 libgit2/src\patch_generate.c(66): warning C5287: operands are different enum types 'git_diff_flag_t' and '<unnamed-enum-GIT_DIFF_FLAG__FREE_PATH>'; use an explicit cast to silence this warning
+refdb.c
+reflog.c
 refdb_fs.c
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
 refspec.c
+refs.c
 regexp.c
 remote.c
-reset.c
 repository.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+reset.c
 revert.c
 revparse.c
 revwalk.c
@@ -364,36 +364,35 @@ status.c
 strarray.c
 strmap.c
 submodule.c
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
 sysdir.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
 tag.c
 thread.c
 threadstate.c
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
 trace.c
-transport.c
 trailer.c
-tree.c
 transaction.c
+transport.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
 tree-cache.c
-tsort.c
+tree.c
 libgit2/src\submodule.c(1417): warning C5287: operands are different enum types 'git_submodule_status_t' and '<unnamed-enum-GIT_SUBMODULE_STATUS__WD_SCANNED>'; use an explicit cast to silence this warning
 libgit2/src\submodule.c(1542): warning C5287: operands are different enum types 'git_submodule_status_t' and '<unnamed-enum-GIT_SUBMODULE_STATUS__WD_SCANNED>'; use an explicit cast to silence this warning
 libgit2/src\submodule.c(1553): warning C5287: operands are different enum types 'git_submodule_status_t' and '<unnamed-enum-GIT_SUBMODULE_STATUS__WD_SCANNED>'; use an explicit cast to silence this warning
@@ -403,30 +402,32 @@ libgit2/src\submodule.c(1613): warning C5287: operands are different enum types 
 libgit2/src\submodule.c(1632): warning C5287: operands are different enum types 'git_submodule_status_t' and '<unnamed-enum-GIT_SUBMODULE_STATUS__WD_SCANNED>'; use an explicit cast to silence this warning
 libgit2/src\submodule.c(1643): warning C5287: operands are different enum types 'git_submodule_status_t' and '<unnamed-enum-GIT_SUBMODULE_STATUS__WD_SCANNED>'; use an explicit cast to silence this warning
 libgit2/src\submodule.c(1683): warning C5287: operands are different enum types 'git_submodule_status_t' and '<unnamed-enum-GIT_SUBMODULE_STATUS__WD_SCANNED>'; use an explicit cast to silence this warning
-vector.c
+tsort.c
 utf8.c
 util.c
 varint.c
+vector.c
 wildmatch.c
-zstream.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
 worktree.c
+zstream.c
 xdiffi.c
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-xemit.c
-xmerge.c
-xpatience.c
 xhistogram.c
+xmerge.c
+xemit.c
 xprepare.c
+xpatience.c
 xutils.c
+auth.c
 exit code: 0
 exit code: 0
 exit code: 0
@@ -437,69 +438,68 @@ exit code: 0
 exit code: 0
 exit code: 0
 auth_negotiate.c
-auth.c
 auth_ntlm.c
-credential_helpers.c
 credential.c
+credential_helpers.c
 git.c
 http.c
 httpclient.c
 local.c
 smart.c
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
 smart_pkt.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
 smart_protocol.c
 ssh.c
-mbedtls.c
 winhttp.c
-openssl_dynamic.c
+mbedtls.c
 openssl.c
-registry.c
+openssl_dynamic.c
 openssl_legacy.c
+registry.c
 socket.c
 stransport.c
 tls.c
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
 http_parser.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
 pcre_byte_order.c
 pcre_chartables.c
 pcre_compile.c
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-pcre_dfa_exec.c
 pcre_config.c
+pcre_dfa_exec.c
 pcre_exec.c
-pcre_fullinfo.c
 pcre_get.c
+pcre_fullinfo.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
 pcre_globals.c
 pcre_jit_compile.c
-pcre_newline.c
 pcre_maketables.c
+pcre_newline.c
 pcre_ord2utf8.c
 exit code: 0
 exit code: 0
@@ -517,22 +517,22 @@ pcre_study.c
 pcre_tables.c
 pcre_ucd.c
 pcre_valid_utf8.c
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
 pcre_version.c
 pcre_xclass.c
 pcreposix.c
-dir.c
-stdalloc.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
 failalloc.c
+stdalloc.c
+dir.c
 error.c
 findfile.c
 map.c
@@ -540,18 +540,18 @@ path_w32.c
 posix_w32.c
 precompiled.c
 thread.c
-w32_buffer.c
 utf-conv.c
+w32_buffer.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
 w32_leakcheck.c
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
-exit code: 0
 w32_util.c
 collisiondetect.c
 sha1.c

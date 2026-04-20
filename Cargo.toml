@@ -1,5 +1,5 @@
 [package]
-name = "rust-semverx"
+name = "semverx"
 version = "0.1.0"
 edition = "2021"
 authors = ["OBINexus Team"]
@@ -22,7 +22,7 @@ security_tests = []
 ffi_tests = []
 
 [lib]
-name = "rust_semverx"
+name = "semverx"
 path = "src/lib.rs"
 crate-type = ["lib", "cdylib", "staticlib"]
 

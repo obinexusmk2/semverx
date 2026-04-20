@@ -1,4 +1,4 @@
-//! Polyglot FFI abstraction layer for `rust-semverx`.
+//! Polyglot FFI abstraction layer for `semverx`.
 //!
 //! This module is the inter-dependent component abstraction layer inspired by
 //! `libpolycall`. It exposes SemverX through a C-ABI surface consumable from

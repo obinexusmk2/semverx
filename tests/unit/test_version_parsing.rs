@@ -1,4 +1,4 @@
-use rust_semverx::core::Version;
+use semverx::core::Version;
 
 #[test]
 fn test_basic_version() {

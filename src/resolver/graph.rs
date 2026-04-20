@@ -104,9 +104,6 @@ impl SemverXResolver {
         Ok(result)
     }
     
-    fn extract_versions(&self, path: &[String]) -> Vec<String> {
-        path.to_vec()
-    }
 }
 
 impl DependencyResolver for SemverXResolver {

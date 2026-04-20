@@ -1,4 +1,4 @@
-use rust_semverx::core::{OBINexusSemverX, Version, SecurityMode};
+use semverx::core::{OBINexusSemverX, Version, SecurityMode};
 
 #[test]
 fn test_zero_trust_mode() {

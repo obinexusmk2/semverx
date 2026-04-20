@@ -1,10 +1,10 @@
 #!/bin/bash
-# OBINexus rust-semverx Setup Script
+# OBINexus semverx Setup Script
 # Part of the polyglot toolchain: riftlang.exe -> .so.a -> rift.exe -> gosilang
 
 set -e
 
-echo "Setting up rust-semverx for OBINexus..."
+echo "Setting up semverx for OBINexus..."
 
 # Ensure proper directory structure
 mkdir -p src/bin
@@ -20,4 +20,4 @@ fi
 # Build the project
 cargo build --release
 
-echo "rust-semverx setup complete"
+echo "semverx setup complete"
